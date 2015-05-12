@@ -37,18 +37,29 @@ data/*
 
 # Sample
 git clone ghttps://github.com/limht/Dragon.git
+
 cd Dragon
+
 vi index.html
+
 git add . or git add index.html
+
 git commit -a -m'first commit'
+
 git remote add origin ghttps://github.com/limht/Dragon.git or git remote add origin master
+
 이제는 github를 확인~
 
 
 덧, 위 명령어가 실행이 안되면
+
 cd .git
+
 vi config
+
 	url = git://github.com ~~~~~~
+
 	url = https://github.com ~~~~~ 로 바꿔주면 됨.
+
 git push origin master
 
